@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 1 - Mobile</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header><h1 class="title">Cadastrar Usuários</h1></header>
+      <main>
+        <form class="form" action="">
+          <div class="form-control">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+          </div>
+
+          <div class="form-control">
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade" required />
+          </div>
+
+          <div class="form-control">
+            <label for="cell">Cell</label>
+            <input type="number" name="cell" id="cell" required />
+          </div>
+
+          <br />
+          <div class="form-button">
+            <button class="btn">Cadastrar</button>
+          </div>
+        </form>
+
+        <ul id="lista"></ul>
+      </main>
+    </div>
+  </body>
+  <script src="src/js/script.js"></script>
+</html>
